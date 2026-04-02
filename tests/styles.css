@@ -1,0 +1,72 @@
+.auth-gateway {
+  padding: 2em;
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.auth-gateway .header {
+  background-color: #4CAF50;
+  padding: 1em;
+  text-align: center;
+  color: #fff;
+}
+
+.auth-gateway .header h1 {
+  font-size: 2.2em;
+  margin-bottom: 0;
+}
+
+.auth-gateway nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.auth-gateway nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.auth-gateway nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.auth-gateway nav a:hover {
+  color: #ccc;
+}
+
+.auth-gateway .content {
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.auth-gateway .form .form-group {
+  margin-bottom: 20px;
+}
+
+.auth-gateway .form input[type="text"], .auth-gateway .form input[type="password"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.auth-gateway .form input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-gateway .form input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.auth-gateway .error {
+  color: #f00;
+}
